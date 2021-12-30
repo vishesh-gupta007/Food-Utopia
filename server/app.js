@@ -173,9 +173,9 @@ app.route("/address").post(function (req, res) {
   );
 });
 
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("frontend/build"));
-}
+// if (process.env.NODE_ENV === "production") {
+//   app.use(express.static("frontend/build"));
+// }
 
 app.listen(PORT, function () {
   console.log("Server started on port " + PORT);
