@@ -1,4 +1,4 @@
-# No modules
+# Node modules
 node_modules
 # dotenv environment variables file
 .env
